@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Desafio para Desenvolvedor Fron-End proposto pela incrível empresa Qconcursos - por Daniel Vilela Portela -">
+    <title>Desafio Front-End Qconcursos - Victor Monteiro</title>
+    <link rel="icon" type="imagem/png" href="./images/305828.png" />
+    <link rel="stylesheet" type="text/css" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/media.css" media="screen and (color)" />
+    <script src="https://kit.fontawesome.com/bb5a28c4c3.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <div class="bg-sombra">
+            <nav id="navbar">
+                <input type="checkbox" id="check">
+                <label for="check">
+                    <i class="fas fa-bars" id="btn-menu"></i>
+                    <i class="fas fa-times" id="btn-cancelar"></i>
+                </label>
+                <!-- <img src="./images/logo_branca.png" id="logo" /> -->
+                <h1 id="logo">Victor Monteiro</h1>
+                <ul id="menu-lista">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#desafio">Desafio</a></li>
+                </ul>
+            </nav>
+
+            <div id="conteudo-inicial">
+                <div></div>
+                <div>
+                    <h1>Desenvolvedor Front End</h1>
+                    <h2>Desafio Qconcursos.com</h2>
+                </div>
+                <div id="redes-sociais">
+                    <a href="https://www.facebook.com/victormonteiro2" target="_blank"><i class="fab fa-facebook-square"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/victor-monteiro2" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/victormonteiro2" target="_blank"><i class="fab fa-github-square"></i></a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="sobre">
+            <div>
+                <h2>Sobre</h2>
+                <p>Im a Jr. fullstack developer with a background in accounting and passionate about technology and languages, I've discovered myself as a developer and now I'm eager to learn and grow into new roles in tech.</p>
+            </div>
+        </section>
+
+        <section id="desafio">
+            <h2>Desafio</h2>
+            <div id="perfil-container">
+                <div id="perfil"></div>
+                <div id="listar-repositorios"></div>
+                <div id="listar-favoritos"></div>
+        </section>
+    </main>
+    <footer>
+        <div></div>
+        <div id="copy">
+            <p>&copy; Victor Monteiro - Desafio Desenvolvedor Front-End </p>
+        </div>
+        <div id="inicio-home">
+            <a href="#home" onclick="topFunction()"><i class="fas fa-chevron-circle-up"></i></a>
+        </div>
+    </footer>
+
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
